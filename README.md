@@ -98,16 +98,20 @@ Best for Recall (business-critical)
 </p>
 
 <p align="center">
-  <em>Predicted vs Actual prices using Lasso Regression (strong linear fit)</em>
+  <em><strong>Predicted vs Actual prices using Lasso Regression (strong linear fit)</strong></em>
 </p>
+
+<br><br><br>
 
 <p align="center">
   <img src="Images/lr_class_reweighing_table.png" width="800"/>
 </p>
 
 <p align="center">
-  <em>Before and after log transforming the "engine size" feature</em>
+  <em><strong>Before and after log transforming the "engine size" feature</strong></em>
 </p>
+
+<br><br><br>
 
 
 <p align="center">
@@ -115,14 +119,16 @@ Best for Recall (business-critical)
 </p>
 
 <p align="center">
-  <em>Model comparisons (Lasso is strongest)</em>
+  <em><strong>Model comparisons (Lasso is strongest)</strong></em>
 </p>
+
+<br><br><br>
 
 <p align="center">
   <img src="Images/partial_dependency_plot.png" width="500"/>
 </p>
 
 <p align="center">
-  <em>Model comparisons (Lasso is strongest)</em>
+  <em><strong>Model comparisons (Lasso is strongest)</strong></em>
 </p>
 
