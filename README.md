@@ -1,6 +1,6 @@
 _README file Last updated: [March 2026]_
 
-## Part 2: Classification
+## Machine Learning Project: Classification
 
 ## Executive Summary
 
@@ -9,6 +9,8 @@ _README file Last updated: [March 2026]_
 - Best business model: **Class-weighted Logistic Regression (Recall = 0.9438)** to capture churners
 - Key drivers of churn: **low satisfaction, high monthly charges, short tenure, lack of contract**
 - Business impact: Enables targeted retention strategies to reduce churn risk
+
+<br><br><br>
 
 ## Detailed Sections
 
