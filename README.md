@@ -61,18 +61,21 @@ Predict customer churn using telecommunications data and evaluate multiple class
 
 **Results:**
 
-Best Overall Model
+Best Model for Test Accuracy
 
-- XGBoost (tuned with early stopping + GridSearchCV)
+- Stacking (tuned with GridSearchCV)
+  - Models stacked: Support Vector Machine (SVM), K nearest neighbors (KNN), Decision Tree Classifier (dt), Final Estimator = Logistic regression (LR)
+- Accuracy = 0.957
 - Highest test accuracy
-- Strong generalization (low overfitting gap)
-- Best balance across precision, recall, and AUC
+- Strong generalization (low overfitting gap = 0.00037)
 
 Best for Recall (business-critical)
 
-- Class reweighting + Logistic Regression / Random Forest
-- Significantly improved recall (caught more churners)
-- Slight drop in precision (acceptable tradeoff)
+- Class reweighting + Logistic Regression
+- Recall = 0.9438
+- Compared to Logistic Regression without class reweighing
+  - Significantly improved recall (caught more churners)
+  - Slight drop in precision (acceptable tradeoff)
 
 **Key Insights:**
 
