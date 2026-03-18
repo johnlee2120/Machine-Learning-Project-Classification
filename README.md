@@ -138,6 +138,7 @@ Best for Recall (business-critical)
 
 <p align="center">
   <em><strong>Partial Dependency Plot (PDP).<br>
-    Our two most important features for churn (satisfaction and monthly charges). Higher Value of partial dependence indicates higher probability to churn.</strong></em>
+    Higher Value of partial dependence indicates higher probability to churn.<br>
+    Our two most important features for churn (satisfaction and monthly charges). </strong></em>
 </p>
 
