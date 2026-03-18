@@ -99,7 +99,8 @@ Best for Recall (business-critical)
 <br>
 
 <p align="center">
-  <em><strong>Stacking: Parameters Performance Comparison Table. Stacking (tuned with GridSearchCV) is our best model for test accuracy.</strong></em>
+  <em><strong>Stacking: Parameters Performance Comparison Table.<br>
+    Stacking (tuned with GridSearchCV) is our best model for test accuracy.</strong></em>
 </p>
 
 <br><br><br>
@@ -110,7 +111,8 @@ Best for Recall (business-critical)
 <br>
 
 <p align="center">
-  <em><strong>Resampling (Logistic Regression): Methods Performance Comparison Table. Class reweighting + Logistic Regression is our best model for recall (business-critical).</strong></em>
+  <em><strong>Resampling (Logistic Regression): Methods Performance Comparison Table.<br>
+    Class reweighting + Logistic Regression is our best model for recall (business-critical).</strong></em>
 </p>
 
 <br><br><br>
@@ -122,7 +124,9 @@ Best for Recall (business-critical)
 <br>
 
 <p align="center">
-  <em><strong>Feature importance plot. We can see that satisfaction has an overwhelming influence on keeping customers (don't churn) while the customer having fiber optic internet type has the highest influence on losing customers (churn).</strong></em>
+  <em><strong>Feature importance plot.<br>
+    We can see that satisfaction has an overwhelming influence on keeping customers (don't churn).<br>
+    The customer having fiber optic internet type has the highest influence on losing customers (churn).</strong></em>
 </p>
 
 <br><br><br>
@@ -133,6 +137,7 @@ Best for Recall (business-critical)
 <br>
 
 <p align="center">
-  <em><strong>Partial Dependency Plot (PDP) of our two most important features for churn (satisfaction and monthly charges). Higher Value of partial dependence indicates higher probability to churn.</strong></em>
+  <em><strong>Partial Dependency Plot (PDP).<br>
+    Our two most important features for churn (satisfaction and monthly charges). Higher Value of partial dependence indicates higher probability to churn.</strong></em>
 </p>
 
