@@ -61,16 +61,25 @@ Predict customer churn using telecommunications data and evaluate multiple class
 
 **Results:**
 
-- Best Model - Lasso Regression
-- R²: 0.80 (highest)
-- RMSE: 3711.17 (lowest)
-- Regularization improved generalization vs polynomial overfitting
+Best Overall Model
+
+- XGBoost (tuned with early stopping + GridSearchCV)
+- Highest test accuracy
+- Strong generalization (low overfitting gap)
+- Best balance across precision, recall, and AUC
+
+Best for Recall (business-critical)
+
+- Class reweighting + Logistic Regression / Random Forest
+- Significantly improved recall (caught more churners)
+- Slight drop in precision (acceptable tradeoff)
 
 **Key Insights:**
 
-- Engine size and curb weight are strong predictors
-- Polynomial features caused severe overfitting without regularization
-- Scaling is critical for SGD performance
+- Satisfaction → strongest predictor (low satisfaction = high churn risk)
+- Monthly charges → higher cost increases churn
+- Contract type → long-term contracts reduce churn
+- Tenure (months) → longer customers are less likely to churn
 
 **Model Interpretability:**
 
