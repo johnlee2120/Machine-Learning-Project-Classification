@@ -86,7 +86,7 @@ Best for Recall (business-critical)
 
 **Model Interpretability:**
 
-- Permutation Feature Independence
+- Permutation Feature Importance
 - Partial Dependency Plot (PDP)
 - Global Surrogate Models
 - Local Interpretable Model-agnostic Explanations (LIME)
@@ -141,4 +141,15 @@ Best for Recall (business-critical)
     Higher Value of partial dependence indicates higher probability to churn.<br>
     Our two most important features for churn (satisfaction and monthly charges). </strong></em>
 </p>
+
+## Business Impact & Recommendations
+
+-	Target customers with low satisfaction scores early with retention campaigns
+- Offer discounts or incentives for high monthly charge customers (like fiber optic internet customers)
+- Encourage long term contracts to reduce churn risk
+- Focus retention efforts on new customers (low tenure)
+
+
+
+
 
