@@ -94,7 +94,7 @@ Best for Recall (business-critical)
 ## Images:
 
 <p align="center">
-  <img src="Images/stacking_table.png" width="800"/>
+  <img src="Images/stacking_table.png" width="1400"/>
 </p>
 
 <p align="center">
@@ -111,7 +111,7 @@ Best for Recall (business-critical)
 
 
 <p align="center">
-  <img src="Images/feature_importance_plot.png" width="500"/>
+  <img src="Images/feature_importance_plot.png" width="700"/>
 </p>
 
 <p align="center">
