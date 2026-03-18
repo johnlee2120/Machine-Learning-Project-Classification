@@ -2,38 +2,62 @@
 
 **Objective:** 
 
-Predict car prices using structured automotive data and evaluate multiple regression approaches
+Predict customer churn using telecommunications data and evaluate multiple classification models to optimize retention strategy
 
 **Dataset:** 
 
-- ~200+ observations, 25 features
-- Mix of categorical and numerical features
-- Target: Price
+- ~7000 customers, 50+ features
+- Mix of categorical (contract type, internet type, etc.) and numerical (monthly charges, data usage, etc.) features
+- Target: Churn value (0 = stay, 1 = churn)
 
 **Data Processing:**
 
-- Handled categorical variables via one-hot encoding
-- Feature engineering (i.e. creating brand_category based on average prices)
-- Log transformation applied to reduce skew 
-- Train test split (70/30)
+- Merged multiple tables into a single customer level dataset
+- Standardized join key (Customer ID)
+- Removed leakage features (post outcome variables like CLTV)
+- One hot encoded categorical variables
+- Applied min-max scaling
+- Train test split (80/20)
 
 **Modeling:**
 
-- Linear regression
-- Polynomial regression (degree tuning)
-- Regularization:
-  - Ridge
-  - Lasso
+- Logistic regression
+  - L2 Regularization (Ridge)
+  - L1 Regularization (Lasso)
   - Elastic Net
-- SGD-based regression
+- K Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Tree Based Models
+  - Decision Tree
+  - Bootstrap Aggregation (Bagging)
+  - Random Forest
+  - Extra Trees
+- Boosting
+  - AdaBoost
+  - XGBoost
+- Ensemble Methods
+  - Stacking
+
+**Handling Class Imbalance (Balancing Methods):**
+ 
+- Balancing Methods
+  - Synthetic Minority Oversampling Technique (SMOTE)
+  - Class Reweighing
+  - Random Undersampling
 
 **Model evaluation:**
 
 - Metrics
-  - RMSE
-  - R² Score
-- Cross validation (3-fold, 5-fold)
-- Residual analysis + diagnostic plots
+  - Accuracy 
+  - Precision
+  - Recall
+  - F1 Score
+  - AUC (ROC)
+- Validation
+  - Train vs. Test Score Comparison
+  - GridSearchCV for hyperparameter tuning
+  - Confusion Matrix Analysis
+  - ROC & Precision-Recall Curves
 
 **Results:**
 
@@ -47,6 +71,13 @@ Predict car prices using structured automotive data and evaluate multiple regres
 - Engine size and curb weight are strong predictors
 - Polynomial features caused severe overfitting without regularization
 - Scaling is critical for SGD performance
+
+**Model Interpretability:**
+
+- Permutation Feature Independence
+- Partial Dependency Plot (PDP)
+- Global Surrogate Models
+- Local Interpretable Model-agnostic Explanations (LIME)
 
 **Images:**
 
