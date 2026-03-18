@@ -94,7 +94,7 @@ Best for Recall (business-critical)
 ## Images:
 
 <p align="center">
-  <img src="Images/predicted%20vs%20actual.png" width="450"/>
+  <img src="Images/stacking_table.png" width="450"/>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ Best for Recall (business-critical)
 </p>
 
 <p align="center">
-  <img src="Images/before%20and%20after%20log.png" width="600"/>
+  <img src="Images/lr_class_reweighing_table.png" width="600"/>
 </p>
 
 <p align="center">
@@ -111,12 +111,18 @@ Best for Recall (business-critical)
 
 
 <p align="center">
-  <img src="Images/model%20comparisons.png" width="300"/>
+  <img src="Images/feature_importance_plot.png" width="300"/>
 </p>
 
 <p align="center">
   <em>Model comparisons (Lasso is strongest)</em>
 </p>
 
+<p align="center">
+  <img src="Images/partial_dependency_plot.png" width="300"/>
+</p>
 
+<p align="center">
+  <em>Model comparisons (Lasso is strongest)</em>
+</p>
 
