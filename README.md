@@ -178,6 +178,3 @@ Best for Recall (business-critical)
     Our two most important features for churn (satisfaction and monthly charges). </strong></em>
 </p>
 
-
-test change
-
